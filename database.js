@@ -1,11 +1,10 @@
 const mysql = require ('mysql');
-require ('dotenv').config();
 
 var connection = mysql.createConnection({
-    host: process.env.host,
-    user: process.env.user,
-    password: process.env.password,
-    database: process.env.database,
+    host: database-1.cnx76zh3lsox.eu-west-3.rds.amazonaws.com,
+    user: "root",
+    password: EU(f5*qNthORPHMhoy9Qf[+<mT$5,
+    database: binance_api,
 });
 
 connection.connect(function(error){
