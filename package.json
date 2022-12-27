@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "open-cli http://localhost:3000/sample_data && node bin/www"
+    "start": "node ./bin/www"
+
   },
   "dependencies": {
     "98.css": "^0.1.18",
